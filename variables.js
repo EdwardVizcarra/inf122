@@ -97,4 +97,14 @@ colores.push("VIOLETA");colores.push("CAFE");
 colores.push([5,8,6]);
 console.log(colores);
 const p =colores.pop();
-colores.find("CAFE");
+//funciones
+//find
+var encontrado = colores.find(function (elemento){ return elemento === "rojo"; }); 
+var elemento = colores.findIndex(function(elemento){return elemento === "verde";});
+function saludar(nombre){ return "Hola, "+ nombre+ "!";} 
+const mensaje = saludar("Edward");
+console.log(mensaje);
+const v=5;const d=2;
+function sumatoria(datos){return "La Suma es: "+datos+ "!"};
+ const sum=sumatoria(v+d);
+ console.log(sum);
