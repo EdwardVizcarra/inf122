@@ -1,0 +1,48 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --plomo: #2B2E34;
+    --gris:#0D1423;
+    --mediogris:#AFC0E2;
+    }
+    .title {
+    color: var(--white);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+body {
+    background-color: var(--plomo);
+}    
+.subtitle {
+    color: var(--mediogris);
+text-align: center;
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.cuadros {
+    border-radius: 8px;
+    background-color: var(--gris);
+    width: 300px;
+height: 160px;
+flex-shrink: 0;
+}
+.cuadros-subtitle{
+    .cuadro-subtitle{
+        color: var(--mediogris);
+        text-align: center;
+        font-family: Nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 300px;
+        height: 59px;
+        flex-shrink: 0;
+}
