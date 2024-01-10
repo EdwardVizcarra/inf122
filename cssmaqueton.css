@@ -34,7 +34,7 @@ height: 160px;
 flex-shrink: 0;
 }
 .cuadros-subtitle{
-    .cuadro-subtitle{
+    
         color: var(--mediogris);
         text-align: center;
         font-family: Nunito;
