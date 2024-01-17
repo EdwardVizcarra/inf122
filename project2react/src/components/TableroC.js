@@ -15,6 +15,7 @@ function TableroC() {
         setJugador(jugador === "X" ? "O":"X");
     }
 
+
     return (
         <div className='juego'>
             <h1>Siguiente Jugador: {jugador}</h1>
@@ -31,5 +32,6 @@ function TableroC() {
             </div>
         </div>
     );
+    
 }
 export default TableroC;
