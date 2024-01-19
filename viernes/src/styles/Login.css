@@ -1,0 +1,21 @@
+.padre{
+    
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+.main{
+    display:flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: start;
+}
+.bottons{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+}
