@@ -58,7 +58,6 @@
   }
   .cuadro-texto{
   display: flex;
-
   width: 600px;
   padding: 20px 2px;
   justify-content: center;
@@ -146,11 +145,12 @@
   
   }
 .App {
+  
   display:flex;
   text-align: center;
-  width: 1950px;
+  width: 1350px;
   height: auto;
-  background-color: var(--black);
+  background-color:var(--black);
   align-items: center;
 }
 
