@@ -13,7 +13,7 @@ function App() {
         <img className="image" src={require("./icons/Perfil.svg").default}/>
         <div className="cuadro-cuadrito-title">
         <h1>Edward Vizcarra</h1>
-        <p>Software Super junior engineer</p>
+        <p>Software Super junior developer</p>
         <div className="icons">
         <img src={require("./icons/github.svg").default}/>
         <img src={require("./icons/linkedin.svg").default}/>
