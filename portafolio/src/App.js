@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
   return (
     
@@ -9,23 +10,24 @@ function App() {
 <title>simply-portofolio-design</title>
 <div className="main">
     <div className="cuadro-title">
-        <img className="image" src="assets/images/perfil_picture.jpeg" alt="jjj"/>
+        <img className="image" src={require("./icons/Perfil.svg").default}/>
         <div className="cuadro-cuadrito-title">
-        <h1>Victor Alvarado</h1>
-        <p>Software Designer</p>
+        <h1>Edward Vizcarra</h1>
+        <p>Software Super junior engineer</p>
         <div className="icons">
-        <img src="assets/icons/github.svg" alt="github"/>
-        <img src="assets/icons/twitter.svg" alt="twitter"/>
-        <img src="assets/icons/linkedin.svg" alt="linkedin"/>
-        <img src="assets/icons/youtube.svg" alt="youtube"/>
+        <img src={require("./icons/github.svg").default}/>
+        <img src={require("./icons/linkedin.svg").default}/>
+        <img src={require("./icons/twitter.svg").default}/>
+        <img src={require("./icons/youtube.svg").default}/>
         </div>
         </div>
 
 
     </div>
+    <div className="botones">
     <button className="boton" alert="contact me">Download</button>
     <button className="boton-black" alert="contact me">Contact me</button>
-
+    </div>
     <div className="cuadro-texto">
         <section>
             <div className="cuadro-cuadrito-texto">

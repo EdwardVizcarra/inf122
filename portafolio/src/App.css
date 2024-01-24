@@ -9,19 +9,21 @@
   }
 
   .main{
+    display:flex;
+    flex-flow: column wrap;
       align-items: center;
       justify-content: center;
-      
       float:center;
+     width: 2000px;
+     
       
   }
   
   .image{
-  width: 192px;
-  height: 192px;
-  flex-shrink: 0;
+    width: 196px;
+    height: 196px;
+    flex-shrink: 0;
   border-radius: 192px;
-
   justify-content: center;
   align-items: center;
   
@@ -32,54 +34,63 @@
       color:var(--white);
       font-weight: 800;
       line-height: normal;
-      width: 372px;
   }
   p{
+   
       color:var(--plomo);
   }
   .cuadro-title{
-      display: flex;
-  width: 1331px;
+  display: flex;
+  width: auto;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  
   }
   .cuadro-cuadrito-title{
-  display: grid;
-  width: 331px;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: left;
+  align-items: left;
+  
   font-family: Poppins;
   
   }
   .cuadro-texto{
   display: flex;
-  width: 1331px;
+
+  width: 600px;
   padding: 20px 2px;
   justify-content: center;
-  align-items: center;
-  gap: 20px;
-  grid-column: 3;
+  
+  
+
   }
   .icons{
       width: 372px;
       height: 156px;
       flex-shrink: 0;
       color: var(--plomo);
+      cursor: pointer;
   }
   .cuadro-cuadrito-texto{
       color: var(--plomo);
+      flex-flow: row wrap;
       display:flex;
-      weight:600px;
-      height: 75px;
-      padding: 20px 20px;
+      
+      width:200px;
+      height: 50px;
+     
       justify-content: center;
-      gap: 20px;
-      flex-direction: column;
       align-items: center;
+   
   
   
+  }
+  .botones{
+   display:list-item;
+    align-items: center;
+    justify-content: center;
   }
   .boton{
       color: var(--black);
@@ -95,13 +106,13 @@
   }
   .cuadro-cuadrito-texto-title{
       font-weight: 100;
-      display : grid;
+      display : flex;
       justify-content: center;
       line-height: normal;
      
   }
   .cuadro-cuadrito-texto-texto{
-      display:grid;
+      display:flex;
       font-weight: 500;
       justify-content: center;
   
@@ -137,8 +148,8 @@
 .App {
   display:flex;
   text-align: center;
-  width: 1728px;
-  height: 1999px;
+  width: 1950px;
+  height: auto;
   background-color: var(--black);
   align-items: center;
 }
