@@ -1,0 +1,12 @@
+.main{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.contenedor img{
+border-radius: 50%;
+object-fit:cover;
+}
+.contenedor h1{
+    color:aliceblue;
+}
